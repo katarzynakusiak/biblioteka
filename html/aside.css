@@ -1,0 +1,51 @@
+h2 {
+    font-size: 200%;
+    text-align: center;
+    font-family: none;
+}
+
+body {
+    border: 50px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+div {
+    font-size: 20px;
+}
+
+.ramka {
+    border: 3px double rgb(156, 118, 125);
+    background-color: rgb(167, 202, 203);
+    padding: 2px 2px 2px 1px;
+    margin-bottom: 10px;
+}
+
+.ramka b {
+    font-weight: bold;
+}
+
+.ramka #data {
+    font-weight: bold;
+    color: #333;
+    border-bottom: 1px solid #333;
+}
+
+.ramka #zegar {
+    color: #333;
+    border-bottom: 1px solid #333;
+}
+
+.ramka #stoper {
+    color: #333;
+    border-bottom: 1px solid #333
+}
+
+p{
+    font-size: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+

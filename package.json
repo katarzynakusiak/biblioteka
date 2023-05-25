@@ -1,0 +1,22 @@
+{
+  "name": "tiskwe",
+  "version": "1.0.0",
+  "description": "projekt",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katarzynakusiak/TISKWE.git"
+  },
+  "keywords": [
+    "html"
+  ],
+  "author": "katarzyna kusiak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/katarzynakusiak/TISKWE/issues"
+  },
+  "homepage": "https://github.com/katarzynakusiak/TISKWE#readme"
+}

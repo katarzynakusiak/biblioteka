@@ -1,0 +1,45 @@
+fieldset{
+    width: 400px;
+    margin: 15px auto;
+    border: 4px double black;
+    padding: 15px;
+}
+
+legend{
+    font-size: 22px;
+    color: rgb(10, 10, 10);
+    text-shadow: 2px 1px 5px rgb(102, 97, 97);
+
+
+}
+label{
+    width: 150px;
+    display: inline-block;
+    font-size: 18px;
+    padding: 5px;
+    border-bottom: 1px solid black;
+
+}
+
+.przyciski{
+    width: 250px;
+    margin: auto;
+}
+
+p{
+    text-align: center;
+}
+
+.button{
+    font-style:initial
+   
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    font-style: initial;
+}

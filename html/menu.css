@@ -1,0 +1,45 @@
+nav ul li, nav ul{
+    display: block;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav ul{
+    border: 3px double rgb(156, 118, 125);
+    background-color: rgb(187, 185, 185);
+    padding: 2px 2px 2px 1px;
+}
+
+nav ul li{
+    border-bottom: 1px solid rgb(41, 39, 39);
+}
+
+nav ul li a:link{
+    text-decoration: none;
+    width: 170px;
+    background-color: rgb(197, 150, 170);
+    display: block;
+    padding: 7px;
+    font-weight: bold;
+    border-left: 10px solid rgb(151, 141, 141);
+    color: black;
+}
+
+nav ul li a:visited{
+    text-decoration: none;
+    width: 170px;
+    background-color: rgb(197, 150, 170);
+    display: block;
+    padding: 7px;
+    font-weight: bold;
+    border-left: 10px solid rgb(151, 141, 141);
+    color: rgb(0, 0, 0);
+}
+
+nav ul li a:hover{
+    background-color: rgb(97, 149, 148);
+    /* width: 160px; */
+    border-left: 20px solid white;
+    color: white;
+}

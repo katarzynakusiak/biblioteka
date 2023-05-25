@@ -1,0 +1,157 @@
+﻿<!DOCTYPE html>
+
+<html lang="pl" >
+<head>
+    <meta charset="utf-8" />
+    <title>strona główna</title>
+    <style>
+        h1,h2{
+            text-align: center;
+        }
+    </style>
+     <link rel="stylesheet" href="layout.css">
+     <link rel="stylesheet" href="tabel.css">
+     <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="strona_glowna.css">
+  
+ 
+</head>
+<body>
+
+    <header style="background-color: rgb(200, 154, 154); color: aliceblue">
+        <h1>
+            Biblioteka Tęczowa
+        </h1>
+    </header>
+
+    <nav>
+        <h2>Menu</h2>
+        <ul>
+            <li> <a href="index.html">Aktualności</a> </li> 
+            <li> <a href="tabela.html">Harmonogram wydarzeń</a> </li> 
+            <li> <a href="formularz.html">Karta biblioteczna</a> </li> 
+            <li> <a href="ranking.html">Polecane</a> </li>
+            
+            <li> <a href="przewodnik.html">Przewodnik po biblioteczce</a> </li>
+            <li> <a href="przelicznik.html">Przelicznik opłaty za poterminowe oddanie książek</a> </li>
+            <li> <a href="o_nas.html">O nas</a> </li>
+            <li> <a href="kontakt.html">Kontakt</a> </li>         
+            <li> <a href="canvas.html">Canvas</a> </li>
+        </ul>
+    </nav>
+
+    <article>
+        <h2>Założenie karty bibliotecznej</h2>
+
+        <form action="ex@ex.pl" method="post">
+            <p>Pola tekstowe z <em>*</em> są wymagane</p>
+
+            <fieldset>
+            
+                <legend>Dane osobowe</legend>
+                <label for="imie">Imię <em>*</em></label>
+                <input type="text" name="imie" id="imie" required>
+                <br>
+                <label for="nazwisko">Nazwisko <em>*</em></label>
+                <input type="text" name="nazwisko" id="nazwisko" required>
+                <br>
+                <label for="telefon">Nr telefonu <em>*</em></label>
+                <input type="text" name="telefon" id="telefon" required
+                placeholder="(+48) xxx-xxx-xxx">
+                <br>
+                <label for="email">Email <em>*</em></label>
+                <input type="text" name="email" id="email" required
+                placeholder="example@example.com">
+           
+            </fieldset>
+
+            <fieldset>
+                <legend>Szczegółowe dane osobowe</legend>
+                <label for="dataUr">Data urodzenia</label>
+                <input type="date" name="dataUr" id="dataUr"> <br>
+
+                <label for="kod">Kod pocztowy</label>
+                <input type="text" name="kod" id="" placeholder="xx-xxx"> <br>
+                <label for="miasto">Miasto</label>
+                <input type="text" name="miasto" id=""placeholder="Poznań"><br>
+                <label for="ulica">Ulica</label>
+                <input type="text" name="ulica" id=""placeholder="Półwiejska"> <br>
+                <label for="NumDom_Miesz">Numer domu/ mieszkania</label>
+                <input type="text" name="numDom_Miesz" id="" placeholder="1"> <br>
+                
+                <label for="wiek">Wiek</label>
+                <input type="number" name="wiek" id="" step="1" min="7" max="100"> <br>
+
+                <label for="plec">Płeć</label>
+                <select name="plec" id="">
+                    <option value="Kobieta">Kobieta</option>
+                    <option value="Mężczyzna">Mężczyzna</option>
+                </select><br>
+                <label for="wiek">Wiek</label>
+                <input type="range" name="wiek" id="" min="10" max="100">
+
+            </fieldset>
+            <fieldset>
+                <legend>Ulubione typy książek</legend>
+                <input type="checkbox" name="kr" id="kr"> 
+                <label for="kr">Kryminały</label> <br>
+                <input type="checkbox" name="dok" id="dok"> 
+                <label for="dok">Książki dokumentalne</label> <br>
+                <input type="checkbox" name="rm" id="rm"> 
+                <label for="rm">Romanse</label> <br>
+                <input type="checkbox" name="dz" id="dz"> 
+                <label for="dz">Dla dzieci</label> <br>
+                <input type="checkbox" name="nas" id="nas"> 
+                <label for="nas">Dla nastolatków</label> <br>
+                <input type="checkbox" name="auto" id="auto"> 
+                <label for="auto">Autobiografie</label> <br>
+                <input type="checkbox" name="fan" id="fan"> 
+                <label for="fan">Fantastyczne</label> <br>
+                <input type="checkbox" name="his" id="his"> 
+                <label for="his">Historyczne</label> <br>
+                <input type="checkbox" name="hor" id="hor"> 
+                <label for="hor">Horrory</label> <br>
+                <input type="checkbox" name="bio" id="bio"> 
+                <label for="bio">Biografie</label> <br>
+                <input type="checkbox" name="edu" id="edu"> 
+                <label for="edu">Edukacyjne</label> <br>
+                <input type="checkbox" name="ps" id="ps"> 
+                <label for="ps">Psychologiczne</label> <br>
+            </fieldset>
+            <fieldset>
+                <legend>Status</legend>
+                <input type="radio" name="w" id=""> uczeń 
+                <input type="radio" name="w" id=""> student
+                <input type="radio" name="w" id=""> pracownik
+                <input type="radio" name="w" id=""> bezrobotny
+                <input type="radio" name="w" id=""> emeryt
+            </fieldset>
+            
+            <div class="przyciski">
+                <input type="reset" value="Kasuj formularz">
+                <input type="submit" value="Wyślij">  
+            </div>
+            
+            
+        </form>
+  
+
+    </article>
+
+    <aside>
+         <iframe src="aside.html"></iframe>
+    </aside>
+
+    <footer>
+     <p>Informacje</p>   
+     <address>
+        <a href="o_nas.html">O nas </a>
+        <br>
+        <a href="kontakt.html">Kontakt</a>
+        <br>
+        <br>
+        Projekt strony internetowej wykonany w ramach zaliczenia przedmiotu MO: TiSKWE na kierunku Energetyka
+     </address>
+    </footer>
+</body>
+</html>

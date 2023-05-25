@@ -1,0 +1,44 @@
+table{
+    background-color: rgb(226, 198, 223);
+    border-style:hidden;
+    text-align: center;
+}
+
+table tr th{
+    font-family: 'book antiqua';
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    border: 2px solid rgb(144, 84, 84);
+}
+
+tr td{
+    font-family: 'arial';
+    font-weight: lighter;
+    font-size: small;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(144, 84, 84);
+    padding: 5px;
+
+}
+tr:hover td{
+    background-color: rgb(197, 150, 150);
+    color: black;
+}
+
+th.godziny{
+    width: 45px;
+}
+
+td.zajety{
+    background-color: rgb(246, 246, 246);
+    color: black;
+}
+td.wolny{
+    background-color: rgb(226, 198, 223);
+}
+
+
+
+
+
+

@@ -1,0 +1,52 @@
+.slideshow {
+  width: 100%;
+  text-align: center;
+  position: relative; /* Dodano */
+}
+
+.slideshow .slide {
+  display: inline-block;
+  margin: 0 auto;
+  width: 200px;
+  height: auto;
+}
+
+.slide-container {
+  display: none;
+}
+
+.prev,
+.next,
+.prev-beginning,
+.next-beginning {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 30px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+.prev-beginning {
+  left: 50px; /* Dodano */
+}
+
+.next-beginning {
+  right: 50px; /* Dodano */
+}
+
+figcaption {
+  font-size: 18px; 
+  margin-top: 15px; 
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
